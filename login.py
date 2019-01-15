@@ -22,8 +22,8 @@ option.add_argument('headless')
 # login
 driver = webdriver.Chrome('driver/'+ chromedriver, chrome_options=option)
 driver.get('http://www.eyny.com/member.php?mod=logging&action=login')
-driver.find_element_by_name('username').send_keys('qwqpwp')
-driver.find_element_by_name('password').send_keys('123456')
+driver.find_element_by_name('username').send_keys('ACCOUNT')
+driver.find_element_by_name('password').send_keys('PASSWORD')
 driver.find_element_by_name('loginsubmit').submit()
 
 
